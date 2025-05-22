@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Get Open Weather API</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <h1>Get Open Weather API</h1>
+        <div class="search" id="search">🔍 
+          <input type="text" placeholder="City Name" class="inputText">
+          <button type="submit" class="searchBtn" onclick="searchBtn()">Search</button>
+        </div>
+        <p id="errorText" class="errorText"></p>
+        <div class="titleText" id="titleText">Current Weather</div>
+        <div class="current" id="current_weather">
+          <div>
+            <p id="currentWeather" class="currentWeather"></p>  
+            <p id="date" class="date">Update at</p>
+            <p id="location" class="location">📪</p>
+            <p id="temp_min" class="temp_min">⬇️</p>
+            <p id="temp_max" class="temp_max">⬆️</p>
+            <p id="temp" class="temp">°C</p>
+            <p id="humidity" class="humidity">💧</p>
+          </div>
+        </div>
+
+        <div class="titleText" id="titleText2">5 days weather forecast - Hong Kong</div>
+        <div class="fiveDays" id="fiveDays">
+        </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

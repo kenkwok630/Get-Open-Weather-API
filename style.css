@@ -1,0 +1,136 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    margin: 0;
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(243, 154, 122);
+}
+
+.titleText{
+    display: flex;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 10px;
+    background-color: rgb(134, 150, 239);
+    color: white;
+}
+
+/* Search */
+.search{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.inputText{
+   margin-left: 5px;
+   max-width: 100px;
+   background-color: rgb(210, 239, 252);
+}
+
+.searchBtn{
+    margin-left: 5px;
+    border: none;
+    background-color: rgb(9, 100, 247);
+    color: white;
+    font-weight: bold;
+}
+
+.errorText{
+    margin: 1px;
+    text-align: center;
+    color: red;
+}
+
+/* Current Weather */
+.current{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(210, 239, 252);
+}
+
+.currentWeather {
+    float: left;
+    margin-top: 0px;
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.date{
+    float: right;
+    margin-left: 100px;
+    padding-top: 7px;
+    font-size:18px;
+    font-weight: bold;
+}
+
+.location{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.temp_min{
+    float: left;
+    font-size: 20px;
+}
+
+.temp_max{
+    float: right;
+    font-size: 20px;
+}
+
+.temp{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.humidity{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/* 5 Days weather forecast */
+
+.fiveDays{
+    background-color: rgb(210, 239, 252);
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-weight: bold;
+}
+
+.box{
+    margin: 5px;
+    margin-bottom: 15px;
+    background-color: rgb(155, 210, 244);
+    width: 200px;
+    border-radius: 5px;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+}
+
+.temp_max1{
+    padding-left: 4px;
+}
+
+.humidity1{
+    margin: -2px;
+    padding-bottom: 20px;
+}
+
+.icon1{
+    font-size: 25px;
+}
